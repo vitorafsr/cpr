@@ -65,7 +65,7 @@ def nl(declat_in):
 		return 59
 	if declat_in_ == 87:
 		return 2
-	if declat_in > 87:
+	if declat_in_ > 87:
 		return 1
 
 	return nl_table[declat_in_]
